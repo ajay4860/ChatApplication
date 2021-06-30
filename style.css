@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.complete{
+    margin-top: 12%;
+    border: 2px solid red;
+    height: 382px;
+    width: 61%;
+    margin-left: 296px;
+    border-radius: 19px;
+   
+}
+
+.chat_header{
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+.message_section{
+    
+    overflow-y:scroll;
+    height:90%;
+}
+
+.message_sent{
+    float: right;
+    border: 2px solid blue;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    border-radius: 18px;
+    width: 295px;
+    clear: both;
+}
+
+.message_received{
+    float: left;
+    border: 2px solid blue;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    border-radius: 18px;
+    width: 295px;
+    clear: both;
+}
+
+.text_area{
+    float: left;
+    margin-left: 315px;
+    margin-top: 12px;
+    width: 182px;
+}
+
+.button{
+    margin-top: 17px;
+}
+
